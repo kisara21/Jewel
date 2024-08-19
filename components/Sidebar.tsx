@@ -16,22 +16,23 @@ const Sidebar = ({user}: SiderbarProps) => {
   return (
     <section className="sidebar">
         <nav className="flex
-        flex-col gap-4">
+        flex-col gap-10">
             <Link href="/"
-            className="mb-12
+            className="mb-20
             cursor-pointer flex
             items-center gap-2">
                 <Image
-                  src="/icons/logo.svg"
-                  width={34}
-                  height={34}
+                  src="/icons/logo-two.svg"
+                  width={20}
+                  height={20}
                   alt="Jewel logo"
-                  className="size-[23px]
+                  className="size-[250px]
                   max-xl:size-14"
+                  style={{ position:'fixed', top: '-55px', left: '10px' }}
                 /> 
                 <h1
                 className="sidebar-logo">
-                  Jewel
+                  
                 </h1>
 
             </Link>

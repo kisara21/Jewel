@@ -11,8 +11,8 @@ import {
     SheetTrigger,
   } from "@/components/ui/sheet"
 
-  import Image from 'next/image'
-  import Link from 'next/link'
+import Image from 'next/image'
+import Link from 'next/link'
 import { sidebarLinks } from '@/constants'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
@@ -41,16 +41,16 @@ const MobileNav = () => {
             cursor-pointer flex
             items-center gap-1">
                 <Image
-                  src="/icons/logo.svg"
-                  width={34}
-                  height={34}
+                  src="/icons/logo-two.svg"
+                  width={20}
+                  height={20}
                   alt="Jewel logo"
-                  className="size-[10px]
-                  max-xl:size-8"
+                  className="size-[200px]
+                  max-xl:size-200"
                 /> 
                 <h1
                 className="text-26 font-ibm-plex-serif font-bold text-black-1">
-                  Jewel
+                  
                 </h1>
 
             </Link>

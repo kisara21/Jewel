@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Jewel",
   description: "Jewel is a modern banking platfor for everyone",
   icons: {
-    icon: '/icons/logo.svg'
+    icon: '/icons/logo-one.svg'
   }
 };
 
