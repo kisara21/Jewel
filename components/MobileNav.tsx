@@ -35,18 +35,19 @@ const MobileNav = () => {
 
         />
     </SheetTrigger>
-    <SheetContent side="left" className='border-none bg-white'>
+    <SheetContent side="left" className='border-none bg-white w-[320px] sm:w-[540px]'>
     <Link href="/"
-            className="
+            className="mb-20
             cursor-pointer flex
-            items-center gap-1">
+            items-center gap-10">
                 <Image
                   src="/icons/logo-two.svg"
                   width={20}
                   height={20}
                   alt="Jewel logo"
-                  className="size-[200px]
+                  className="size-[230px]
                   max-xl:size-200"
+                  style={{ position:'fixed', top: '-55px', left: '0px' }}
                 /> 
                 <h1
                 className="text-26 font-ibm-plex-serif font-bold text-black-1">
