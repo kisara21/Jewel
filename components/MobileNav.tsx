@@ -47,7 +47,7 @@ const MobileNav = () => {
                   alt="Jewel logo"
                   className="size-[230px]
                   max-xl:size-200"
-                  style={{ position:'fixed', top: '-55px', left: '0px' }}
+                  style={{ position:'fixed', top: '-45px', left: '0px' }}
                 /> 
                 <h1
                 className="text-26 font-ibm-plex-serif font-bold text-black-1">
